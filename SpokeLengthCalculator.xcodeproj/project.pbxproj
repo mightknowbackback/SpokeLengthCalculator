@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C0056427C7383500ADAD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0056327C7383500ADAD0F /* AppDelegate.swift */; };
+		96C0056627C7383500ADAD0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0056527C7383500ADAD0F /* SceneDelegate.swift */; };
+		96C0056827C7383600ADAD0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0056727C7383600ADAD0F /* ContentView.swift */; };
+		96C0056A27C7384100ADAD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C0056927C7384100ADAD0F /* Assets.xcassets */; };
+		96C0056D27C7384100ADAD0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C0056C27C7384100ADAD0F /* Preview Assets.xcassets */; };
+		96C0057027C7384100ADAD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0056E27C7384100ADAD0F /* LaunchScreen.storyboard */; };
+		96C0057B27C7384100ADAD0F /* SpokeLengthCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0057A27C7384100ADAD0F /* SpokeLengthCalculatorTests.swift */; };
+		96C0058627C7384100ADAD0F /* SpokeLengthCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0058527C7384100ADAD0F /* SpokeLengthCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96C0057727C7384100ADAD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C0055827C7383500ADAD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C0055F27C7383500ADAD0F;
+			remoteInfo = SpokeLengthCalculator;
+		};
+		96C0058227C7384100ADAD0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C0055827C7383500ADAD0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C0055F27C7383500ADAD0F;
+			remoteInfo = SpokeLengthCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96C0056027C7383500ADAD0F /* SpokeLengthCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpokeLengthCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C0056327C7383500ADAD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96C0056527C7383500ADAD0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96C0056727C7383600ADAD0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96C0056927C7384100ADAD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C0056C27C7384100ADAD0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96C0056F27C7384100ADAD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96C0057127C7384100ADAD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C0057627C7384100ADAD0F /* SpokeLengthCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpokeLengthCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C0057A27C7384100ADAD0F /* SpokeLengthCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokeLengthCalculatorTests.swift; sourceTree = "<group>"; };
+		96C0057C27C7384100ADAD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C0058127C7384100ADAD0F /* SpokeLengthCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpokeLengthCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C0058527C7384100ADAD0F /* SpokeLengthCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpokeLengthCalculatorUITests.swift; sourceTree = "<group>"; };
+		96C0058727C7384100ADAD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C0055D27C7383500ADAD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057327C7384100ADAD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057E27C7384100ADAD0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C0055727C7383500ADAD0F = {
+			isa = PBXGroup;
+			children = (
+				96C0056227C7383500ADAD0F /* SpokeLengthCalculator */,
+				96C0057927C7384100ADAD0F /* SpokeLengthCalculatorTests */,
+				96C0058427C7384100ADAD0F /* SpokeLengthCalculatorUITests */,
+				96C0056127C7383500ADAD0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C0056127C7383500ADAD0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C0056027C7383500ADAD0F /* SpokeLengthCalculator.app */,
+				96C0057627C7384100ADAD0F /* SpokeLengthCalculatorTests.xctest */,
+				96C0058127C7384100ADAD0F /* SpokeLengthCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C0056227C7383500ADAD0F /* SpokeLengthCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				96C0056327C7383500ADAD0F /* AppDelegate.swift */,
+				96C0056527C7383500ADAD0F /* SceneDelegate.swift */,
+				96C0056727C7383600ADAD0F /* ContentView.swift */,
+				96C0056927C7384100ADAD0F /* Assets.xcassets */,
+				96C0056E27C7384100ADAD0F /* LaunchScreen.storyboard */,
+				96C0057127C7384100ADAD0F /* Info.plist */,
+				96C0056B27C7384100ADAD0F /* Preview Content */,
+			);
+			path = SpokeLengthCalculator;
+			sourceTree = "<group>";
+		};
+		96C0056B27C7384100ADAD0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96C0056C27C7384100ADAD0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96C0057927C7384100ADAD0F /* SpokeLengthCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C0057A27C7384100ADAD0F /* SpokeLengthCalculatorTests.swift */,
+				96C0057C27C7384100ADAD0F /* Info.plist */,
+			);
+			path = SpokeLengthCalculatorTests;
+			sourceTree = "<group>";
+		};
+		96C0058427C7384100ADAD0F /* SpokeLengthCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96C0058527C7384100ADAD0F /* SpokeLengthCalculatorUITests.swift */,
+				96C0058727C7384100ADAD0F /* Info.plist */,
+			);
+			path = SpokeLengthCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C0055F27C7383500ADAD0F /* SpokeLengthCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0058A27C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculator" */;
+			buildPhases = (
+				96C0055C27C7383500ADAD0F /* Sources */,
+				96C0055D27C7383500ADAD0F /* Frameworks */,
+				96C0055E27C7383500ADAD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpokeLengthCalculator;
+			productName = SpokeLengthCalculator;
+			productReference = 96C0056027C7383500ADAD0F /* SpokeLengthCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96C0057527C7384100ADAD0F /* SpokeLengthCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0058D27C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculatorTests" */;
+			buildPhases = (
+				96C0057227C7384100ADAD0F /* Sources */,
+				96C0057327C7384100ADAD0F /* Frameworks */,
+				96C0057427C7384100ADAD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C0057827C7384100ADAD0F /* PBXTargetDependency */,
+			);
+			name = SpokeLengthCalculatorTests;
+			productName = SpokeLengthCalculatorTests;
+			productReference = 96C0057627C7384100ADAD0F /* SpokeLengthCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96C0058027C7384100ADAD0F /* SpokeLengthCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0059027C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculatorUITests" */;
+			buildPhases = (
+				96C0057D27C7384100ADAD0F /* Sources */,
+				96C0057E27C7384100ADAD0F /* Frameworks */,
+				96C0057F27C7384100ADAD0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C0058327C7384100ADAD0F /* PBXTargetDependency */,
+			);
+			name = SpokeLengthCalculatorUITests;
+			productName = SpokeLengthCalculatorUITests;
+			productReference = 96C0058127C7384100ADAD0F /* SpokeLengthCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C0055827C7383500ADAD0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					96C0055F27C7383500ADAD0F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					96C0057527C7384100ADAD0F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 96C0055F27C7383500ADAD0F;
+					};
+					96C0058027C7384100ADAD0F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 96C0055F27C7383500ADAD0F;
+					};
+				};
+			};
+			buildConfigurationList = 96C0055B27C7383500ADAD0F /* Build configuration list for PBXProject "SpokeLengthCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C0055727C7383500ADAD0F;
+			productRefGroup = 96C0056127C7383500ADAD0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C0055F27C7383500ADAD0F /* SpokeLengthCalculator */,
+				96C0057527C7384100ADAD0F /* SpokeLengthCalculatorTests */,
+				96C0058027C7384100ADAD0F /* SpokeLengthCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C0055E27C7383500ADAD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0057027C7384100ADAD0F /* LaunchScreen.storyboard in Resources */,
+				96C0056D27C7384100ADAD0F /* Preview Assets.xcassets in Resources */,
+				96C0056A27C7384100ADAD0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057427C7384100ADAD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057F27C7384100ADAD0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C0055C27C7383500ADAD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0056427C7383500ADAD0F /* AppDelegate.swift in Sources */,
+				96C0056627C7383500ADAD0F /* SceneDelegate.swift in Sources */,
+				96C0056827C7383600ADAD0F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057227C7384100ADAD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0057B27C7384100ADAD0F /* SpokeLengthCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C0057D27C7384100ADAD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0058627C7384100ADAD0F /* SpokeLengthCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96C0057827C7384100ADAD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C0055F27C7383500ADAD0F /* SpokeLengthCalculator */;
+			targetProxy = 96C0057727C7384100ADAD0F /* PBXContainerItemProxy */;
+		};
+		96C0058327C7384100ADAD0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C0055F27C7383500ADAD0F /* SpokeLengthCalculator */;
+			targetProxy = 96C0058227C7384100ADAD0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96C0056E27C7384100ADAD0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C0056F27C7384100ADAD0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C0058827C7384100ADAD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96C0058927C7384100ADAD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C0058B27C7384100ADAD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpokeLengthCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpokeLengthCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96C0058C27C7384100ADAD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpokeLengthCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpokeLengthCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96C0058E27C7384100ADAD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				INFOPLIST_FILE = SpokeLengthCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpokeLengthCalculator.app/SpokeLengthCalculator";
+			};
+			name = Debug;
+		};
+		96C0058F27C7384100ADAD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				INFOPLIST_FILE = SpokeLengthCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpokeLengthCalculator.app/SpokeLengthCalculator";
+			};
+			name = Release;
+		};
+		96C0059127C7384100ADAD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				INFOPLIST_FILE = SpokeLengthCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpokeLengthCalculator;
+			};
+			name = Debug;
+		};
+		96C0059227C7384100ADAD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28A7JVTRXB;
+				INFOPLIST_FILE = SpokeLengthCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.euphorophonics.SpokeLengthCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpokeLengthCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C0055B27C7383500ADAD0F /* Build configuration list for PBXProject "SpokeLengthCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0058827C7384100ADAD0F /* Debug */,
+				96C0058927C7384100ADAD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0058A27C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0058B27C7384100ADAD0F /* Debug */,
+				96C0058C27C7384100ADAD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0058D27C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0058E27C7384100ADAD0F /* Debug */,
+				96C0058F27C7384100ADAD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0059027C7384100ADAD0F /* Build configuration list for PBXNativeTarget "SpokeLengthCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0059127C7384100ADAD0F /* Debug */,
+				96C0059227C7384100ADAD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C0055827C7383500ADAD0F /* Project object */;
+}
