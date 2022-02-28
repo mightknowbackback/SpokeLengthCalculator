@@ -63,7 +63,7 @@ struct ContentView: View {
             ForEach(0..<5) {i in
                 HStack {
                     Text(inputList[i] + ":").frame(maxWidth: .infinity)
-                    TextField("", text: $values[i]).frame(maxWidth: .infinity)
+                    TextField("", text: $values[i]).frame(maxWidth: .infinity).keyboardType(.numberPad)
                 }.padding()
             }
             HStack {
